@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Learn HTML5 and CSS3">
+    <meta name="author" content="Sandeep Parwal, HTML5/CSS3 Practice">
+    <meta name="keywords" content="BVC, Bow Valley College">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bow Valley College - Calgary</title>
+    <link href="./css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->    
+    <header class="bg-primary text-white">
+        <p><img src="./images/logo.jpg" width="50"></p>
+        <ul>
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+    </header>
+    <marquee behavior="scroll" direction="left" scrollamount="10">Breaking News: Chill Pill company is offering 50% discount on 3 top locations for Winter 2024 vacations. Hurry up! Grab the Deal.</marquee>
+
+    <!-- Main content area -->
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <img src="./images/image1.png" />
+            </div>
+            <div class="col-3">
+                <img src="./images/image3.jpg" />
+            </div>
+            <div class="col-3">
+                <video width="450" height="450" controls autoplay>
+                  <source src="./images/video1.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="container">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th align="left">Tag Name</th>
+                    <th align="left">Output</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><th>1</th><td>Bold</td><td><b>Bold</b></td></tr>
+                <tr><th>2</th><td>Italic</td><td><i>Italic</i></td></tr>
+                <tr><th>3</th><td>Underline</td><td><u>Underline</u></td></tr>
+                <tr><th>4</th><td>Stike</td><td><strike>Strike</strike></td></tr>
+                <tr><th>5</th><td>Sup</td><td>4<sup>1/2</sup></td></tr>
+                <tr><th>6</th><td>Sub</td><td>H<sub>2</sub>O</td></tr>
+                <tr><th>7</th><td>Pre</td><td><pre>Lorem Ipsum
+                    This is cool.<pre></td></tr>
+                <tr><th>8</th><td>Textbox</td><td><input type="text" name="name" placeholder="Enter your name"></td></tr>
+                <tr><th>9</th><td>Radio Button</td><td><input type="radio" name="gender" value="Male" checked="checked"> Male <input type="radio" name="gender" value="Female"> Felmale</td></tr>
+                <tr><th>10</th><td>Checkbox</td><td><input type="checkbox" name="interest" value="Cricket" checked="checked"> Cricket <input type="checkbox" name="interest" value="Photography"> Photography <input type="checkbox" name="interest" value="Handmade_Crafts"> Handmade Crafts</td></tr>
+                <tr><th>11</th><td>Button</td><td><input type="submit" value="Submit" /></td></tr>
+                <tr><th>12-25</th><td>Other tags used:</td><td>div, table, br, hr, meta, link, title, header, marquee, image, video, ul, footer, p, a</td></tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total</th><td colspan="2"> &nbsp; 10</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <br/>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024</p>
+        <ul class="social">
+          <li><img src="./images/instagram.png" /></li>
+          <li><img src="./images/facebook.png" /></li>
+          <li><img src="./images/youtube.png" /></li>
+        </ul>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+    </footer>
+  </body>
+</html>
